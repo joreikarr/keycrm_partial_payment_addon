@@ -3,6 +3,7 @@
 // @namespace    company.internal
 // @version      1.0.0
 // @description  Частичная оплата для KeyCRM
+// @author       Joreikarr
 // @match        *://*.keycrm.app/*
 // @match        *://keycrm.app/*
 // @grant        GM_addStyle
