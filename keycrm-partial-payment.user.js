@@ -52,7 +52,7 @@
       margin-left: 0 !important;
     }
   `);
-
+  console.log('KCRM script loaded');
   const FRACTIONS = [
     { label: '1/2', value: 1 / 2 },
     { label: '1/3', value: 1 / 3 },
