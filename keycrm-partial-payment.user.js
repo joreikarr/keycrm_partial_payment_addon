@@ -1,9 +1,8 @@
 // ==UserScript==
 // @name         KeyCRM — частичная оплата
-// @namespace    https://github.com/joreikarr
-// @version      1.0.2
-// @description  Добавляет расчёт частичной оплаты в форму оплаты KeyCRM
-// @author       Joreikarr
+// @namespace    company.internal
+// @version      1.0.0
+// @description  Частичная оплата для KeyCRM
 // @match        *://*.keycrm.app/*
 // @match        *://keycrm.app/*
 // @grant        GM_addStyle
@@ -47,7 +46,7 @@
       margin-left: 0 !important;
     }
   `);
-  console.log('KCRM script loaded');
+
   const FRACTIONS = [
     { label: '1/2', value: 1 / 2 },
     { label: '1/3', value: 1 / 3 },
