@@ -1,12 +1,17 @@
 // ==UserScript==
 // @name         KeyCRM — частичная оплата
-// @namespace    company.internal
-// @version      1.0.0
-// @description  Частичная оплата для KeyCRM
+// @namespace    https://github.com/joreikarr
+// @version      1.0.2
+// @description  Добавляет расчёт частичной оплаты в форму оплаты KeyCRM
 // @author       Joreikarr
+// @license      MIT
+// @homepageURL  https://github.com/joreikarr/keycrm_partial_payment_addon
+// @supportURL   https://github.com/joreikarr/keycrm_partial_payment_addon/issues
+// @downloadURL  https://raw.githubusercontent.com/joreikarr/keycrm_partial_payment_addon/main/keycrm-partial-payment.user.js
+// @updateURL    https://raw.githubusercontent.com/joreikarr/keycrm_partial_payment_addon/main/keycrm-partial-payment.user.js
 // @match        *://*.keycrm.app/*
 // @match        *://keycrm.app/*
-// @grant        GM_addStyle
+// @grant        none
 // @run-at       document-idle
 // ==/UserScript==
 
